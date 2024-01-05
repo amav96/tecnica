@@ -1,0 +1,75 @@
+[
+    {
+        "end": 0.99,
+        "start": 0.05,
+        "text": " Hey, everybody.",
+        "words": [
+            {
+                "end": 0.59,
+                "start": 0.05,
+                "word": "Hey,"
+            },
+            {
+                "end": 0.99,
+                "start": 0.63,
+                "word": "everybody,"
+            }
+            
+        ]
+    },
+    {
+        "end": 3.35,
+        "start": 1.37,
+        "text": "Welcome to this A1 English",
+        "words": [
+            {
+                "end": 1.59,
+                "start": 1.37,
+                "word": "welcome"
+            },
+            {
+                "end": 1.83,
+                "start": 1.59,
+                "word": "to"
+            },
+            {
+                "end": 2.13,
+                "start": 1.83,
+                "word": "this"
+            },
+            {
+                "end": 2.75,
+                "start": 2.13,
+                "word": "A1"
+            },
+            {
+                "end": 3.35,
+                "start": 2.75,
+                "word": "English"
+            }
+            
+        ]
+    },
+    {
+        "end": 4.87,
+        "start": 3.87,
+        "text": "listening practice video.",
+        "words": [
+            {
+                "end": 3.87,
+                "start": 3.35,
+                "word": "listening"
+            },
+            {
+                "end": 4.37,
+                "start": 3.87,
+                "word": "practice"
+            },
+            {
+                "end": 4.87,
+                "start": 4.37,
+                "word": "video."
+            }
+        ]
+    }
+]

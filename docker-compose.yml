@@ -1,0 +1,37 @@
+version: "3.8"
+
+networks:
+  tenica-ai-network:
+
+services:
+  nginx:
+    build:
+      context: ./docker/nginx
+      args:
+        nginx_version: ${NGINX_VERSION}
+    restart: unless-stopped
+    container_name: ${PROJECT_NAME}-nginx
+    depends_on:
+      - node
+    ports:
+      - "${HTTP_PORT}:80"
+    volumes:
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - tenica-ai-network
+
+  node:
+    build:
+      context: ./docker/node
+      args:
+        node_version: ${NODE_VERSION}
+    env_file: ./.env
+    restart: unless-stopped
+    container_name: ${PROJECT_NAME}-node
+    command: /usr/src/app/start.sh
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app-react:/usr/src/app
+    networks:
+      - tenica-ai-network
