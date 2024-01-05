@@ -55,7 +55,7 @@
     }
      ]
      ```
-    - Each new paragraph should have the start property of the last item of the previous paragraph, and the end property should be the value of the end property of the last item of the current paragraph.
+    - Each new paragraph should have the start property of the last item of the previous paragraph, and the end property should be the value of the end property of the last item of the current paragraph (It is not obligatory).
 
 4) You should render the words property in paragraph format. In other words, you    should iterate through the words array, and concatenate each text with the next text to form a paragraph.
 

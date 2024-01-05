@@ -56,7 +56,7 @@
     }
      ]
      ```
-    - Cada nuevo parrafo debe tener la propiedad start del ultimo item del parrafo anterior y la propiedad end debe ser el valor de la propiedad end del ultimo item del parrafo actual
+    - Cada nuevo parrafo debe tener la propiedad start del ultimo item del parrafo anterior y la propiedad end debe ser el valor de la propiedad end del ultimo item del parrafo actual (ESTO NO ES OBLIGATORIO)
 
 4) Deberas renderizar la propiedad words en formato parrafo,
     es decir, debe recorrer el array words, y cada texto concatenarlo con el siguiente texto y asi formar un parrafo
