@@ -7,6 +7,7 @@ https://www.youtube.com/watch?v=XgRGI0Pw2mM
 
 https://www.youtube.com/watch?v=Vplj9b0L_1Y&t=1s
 
+## Copy .env.example o .env
 
 ### How to start to develop first time
 
